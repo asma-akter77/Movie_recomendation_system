@@ -60,3 +60,7 @@ if st.button('Recommend'):
     with col5:
        st.text(name[4])
        st.image(poster[4])
+        
+st.divider()
+st.caption(':blue[Asma Akter] :sunglasses:')
+st.caption('Data Science Engineer')
