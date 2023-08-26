@@ -35,7 +35,7 @@ st.markdown("<h1 style='text-align: center; color: red;'>Movie Recommendation Sy
 st.markdown("<h5 style='text-align: center; color: red;'>Relate your choice with help of Machine Learning</h5>", unsafe_allow_html=True)
 
 Selected_Movie_Name = st.selectbox(
-    'Relate your choice with help of Machine Learning',
+    '',
   movies['title'].values)
 
 if st.button('--Find Your Next Choice--'):
